@@ -1,123 +1,36 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(max-width: 650px)" srcset="assets/identity-mobile.svg">
+    <img src="assets/identity.svg" alt="pureey / SantaChains：在安静处造工具。主力 Rust、Modern C++、Lua。" width="880">
+  </picture>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Hi+there+%F0%9F%91%8B+I'm+SantaChains;Full+Stack+Developer;Open+Source+Enthusiast;Always+Learning+%F0%9F%9A%80)](https://git.io/typing-svg)
+主力 Rust、Modern C++、Lua。GPUI、Vite、Vulkan、Godot 用在具体项目；TypeScript / React 做界面。
 
-</div>
+<p align="center">
+  <picture>
+    <source media="(max-width: 650px)" srcset="assets/row-tech-mobile.svg">
+    <img src="assets/row-tech.svg" alt="技术铭文：主力 Rust、Modern C++、Lua；常用 GPUI、Vite、Vulkan、Godot、TypeScript、React。" width="880">
+  </picture>
+</p>
 
-<div align="center">
-  
-  [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chains0521@163.com)
-  
-</div>
+其余：Zig、Kotlin、Python、Bun、Tailwind CSS、shadcn/ui、Three.js、Docker、AHK、Arch Linux、Mojo、Jai、KDL。
 
----
+<p align="center">
+  <picture>
+    <source media="(max-width: 650px)" srcset="assets/row-data-mobile.svg?v=2026-W46">
+    <img src="assets/row-data.svg?v=2026-W46" alt="每周刷新的 GitHub 开源档案：星标、关注、仓库与过去十二个月贡献热力图。" width="880">
+  </picture>
+</p>
 
-## 👨‍💻 About Me
+- [**heartflow**](https://github.com/SantaChains/heartflow) — Rust TUI agent，半隅安宁。
+- [**godotLsp**](https://github.com/SantaChains/godotLsp) — Rust GDScript LSP + VSCode 插件。
+- [**yoru**](https://github.com/SantaChains/yoru) — Rust 脚本语言。
 
-- 🔭 Currently working on exciting full-stack projects
-- 🌱 Always learning new technologies and best practices
-- 💬 Ask me about web development, JavaScript, React, Node.js
-- 🎯 2026 Goals: Contribute more to open source projects
-- ⚡ Fun fact: I love automating everything!
+<p align="center">
+  <a href="mailto:chains0521@163.com">EMAIL</a> ·
+  <a href="https://santachains.github.io">BLOG</a> ·
+  <a href="https://github.com/SantaChains">GITHUB</a>
+</p>
 
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-### Languages
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,cpp,go,rust" />
-
-### Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,vue,html,css,tailwind,sass" />
-
-### Backend
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,spring" />
-
-### Database & Tools
-<img src="https://skillicons.dev/icons?i=postgresql,mongodb,redis,docker,kubernetes,git" />
-
-### Cloud & DevOps
-<img src="https://skillicons.dev/icons?i=aws,gcp,azure,vercel,netlify,github" />
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=SantaChains&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-  
-  <img width="49%" src="https://github-readme-streak-stats.demolab.com?user=SantaChains&theme=tokyonight&hide_border=true" />
-  
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SantaChains&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-  
-  <img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=SantaChains&theme=tokyo-night&hide_border=true&area=true" />
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-  [![trophy](https://github-profile-trophy.vercel.app/?username=SantaChains&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-  
-</div>
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | Description | Tech Stack | Stars |
-|---------|-------------|------------|-------|
-| [**search-enhance**](https://github.com/SantaChains/search-enhance) | 🎯 智能文本处理与搜索增强浏览器扩展 | JavaScript, Chrome Extension | ![Stars](https://img.shields.io/github/stars/SantaChains/search-enhance?style=social) |
-| [**santachains-blog**](https://github.com/SantaChains/santachains-blog) | 🌸 川端康成风格个人博客 | Next.js, TypeScript, Tailwind CSS | ![Stars](https://img.shields.io/github/stars/SantaChains/santachains-blog?style=social) |
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  
-  ![Snake animation](https://raw.githubusercontent.com/SantaChains/SantaChains/output/github-contribution-grid-snake-dark.svg)
-  
-</div>
-
----
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  
-  ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-  
-</div>
-
----
-
-## 📫 How to Reach Me
-
-<div align="center">
-
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chains0521@163.com)
-
-</div>
-
----
-
-<div align="center">
-  
-  ![Profile Views](https://komarev.com/ghpvc/?username=SantaChains&color=blueviolet&style=for-the-badge)
-  
-  ### Show some ❤️ by starring some of the repositories!
-  
-</div>
+<p align="center">BUILD WITH LOVE 💗</p>

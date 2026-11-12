@@ -38,13 +38,15 @@ logs/
 .cache/
 *.cache
 
-# Temporary files
 tmp/
 temp/
 *.tmp
 
-# History files
 .history/
 
-# Local settings
+
 .claude/settings.local.json
+
+
+luolangaga/
+.screenshots/

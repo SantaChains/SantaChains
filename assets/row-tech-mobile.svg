@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="428" height="520" viewBox="0 0 428 520" role="img" aria-labelledby="title desc" lang="zh-CN">
+  <title id="title">技术铭文与现在</title>
+  <desc id="desc">主力 Rust、Modern C++、Lua；常用 GPUI、Vite、Vulkan、Godot、TypeScript、React。</desc>
+  <defs>
+    <style>
+  text { font-family: 'Palatino Linotype','Book Antiqua',Palatino,Georgia,'Noto Serif CJK SC','Source Han Serif SC','Noto Serif SC','Songti SC','SimSun','Microsoft YaHei',serif; fill: #e8dcc0; }
+  .mono { font-family: 'JetBrains Mono','Cascadia Code','SFMono-Regular',Consolas,'Sarasa Mono SC','Noto Sans Mono CJK SC','Liberation Mono',monospace; }
+  .dim { fill: #b8ab8d; }
+  .ash { fill: #8d8472; }
+  .gold { fill: url(#gold); }
+  .ember { fill: #a13a26; }
+  .spin { animation: spin 110s linear infinite; }
+  .breathe { animation: breathe 7s ease-in-out infinite; }
+  .dust { animation: rise 9s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  @keyframes breathe { 0%, 100% { opacity: .5; } 50% { opacity: 1; } }
+  @keyframes rise {
+    0% { transform: translateY(0); opacity: 0; }
+    18% { opacity: .85; }
+    100% { transform: translateY(-96px); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .spin, .breathe, .dust { animation: none !important; }
+  }
+</style>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8a6c31"/>
+      <stop offset=".32" stop-color="#f2d68c"/>
+      <stop offset=".58" stop-color="#c9a24b"/>
+      <stop offset="1" stop-color="#f7e7b4"/>
+    </linearGradient>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b160e"/>
+      <stop offset="1" stop-color="#0c0a06"/>
+    </linearGradient>
+    <filter id="glow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="3.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grain" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="9" cy="9" r=".7" fill="#c9a24b" opacity=".16"/>
+    </pattern>
+  </defs>
+  <path d="M22 5Q214 1 406 5Q423 5 423 22L424 496Q423 515 406 515Q214 519 22 515Q5 514 5 497L6 22Q5 5 22 5Z" fill="url(#stone)" stroke="#7d6530" stroke-width="1.4"/>
+  <path d="M22 5Q214 1 406 5Q423 5 423 22L424 496Q423 515 406 515Q214 519 22 515Q5 514 5 497L6 22Q5 5 22 5Z" fill="url(#grain)"/>
+  <rect x="14" y="14" width="400" height="492" rx="10" fill="none" stroke="#4a3d22" stroke-width="1"/>
+  <path d="M22 40V28Q22 22 28 22H40" fill="none" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M406 40V28Q406 22 412 22H388" fill="none" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M22 480V504Q22 498 28 498H40" fill="none" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M406 480V504Q406 498 412 498H388" fill="none" stroke="url(#gold)" stroke-width="1.1" stroke-linecap="round"/>
+  <path d="M22 18l4 4-4 4-4-4Z" fill="#7d6530"/>
+  <path d="M406 18l4 4-4 4-4-4Z" fill="#7d6530"/>
+  <path d="M22 494l4 4-4 4-4-4Z" fill="#7d6530"/>
+  <path d="M406 494l4 4-4 4-4-4Z" fill="#7d6530"/>
+  <text x="32" y="46" font-size="22" letter-spacing="2">技术铭文</text>
+  <text x="32" y="64" class="mono dim" font-size="8" letter-spacing="2.2">TECH</text>
+  <text x="32" y="94" font-size="14" letter-spacing="2">主力 / MAIN</text>
+  <path d="M32 120l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="46" y="124" font-size="16">Rust</text>
+    <text x="46" y="138" class="mono dim" font-size="8" letter-spacing="1">系统 · TUI · 工具链</text>
+  <path d="M32 156l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="46" y="160" font-size="16">Modern C++</text>
+    <text x="46" y="174" class="mono dim" font-size="8" letter-spacing="1">图形 · 性能 · 原生</text>
+  <path d="M32 192l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="46" y="196" font-size="16">Lua</text>
+    <text x="46" y="210" class="mono dim" font-size="8" letter-spacing="1">配置 · 插件</text>
+  <text x="32" y="232" font-size="14" letter-spacing="2">常用 / COMMON</text>
+  <rect x="32" y="256" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M44 267l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="55" y="276" font-size="11">GPUI</text>
+  <rect x="226" y="256" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M238 267l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="249" y="276" font-size="11">Vite</text>
+  <rect x="32" y="294" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M44 305l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="55" y="314" font-size="11">Vulkan</text>
+  <rect x="226" y="294" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M238 305l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="249" y="314" font-size="11">Godot</text>
+  <rect x="32" y="332" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M44 343l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="55" y="352" font-size="11">TypeScript</text>
+  <rect x="226" y="332" width="168" height="30" rx="3" fill="#1c160d" fill-opacity=".62" stroke="#4a3d22"/>
+    <path d="M238 343l4 4-4 4-4-4Z" fill="#7d6530"/>
+    <text x="249" y="352" font-size="11">React</text>
+  <path d="M32 380H396" stroke="#4a3d22" stroke-width="1"/>
+  <text x="32" y="404" font-size="18" letter-spacing="2">现在 / NOW</text>
+  <text x="32" y="432" font-size="11">在做 heartflow。</text>
+  <text x="32" y="454" font-size="11">在学 GPUI 与 Vulkan。</text>
+  <text x="32" y="476" font-size="11">写小工具，读源码。</text>
+</svg>
