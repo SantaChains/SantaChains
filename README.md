@@ -18,8 +18,8 @@
 
 <p align="center">
   <picture>
-    <source media="(max-width: 650px)" srcset="assets/row-data-mobile.svg?v=2026-W47">
-    <img src="assets/row-data.svg?v=2026-W47" alt="每周刷新的 GitHub 开源档案：星标、关注、仓库与过去十二个月贡献热力图。" width="880">
+    <source media="(max-width: 650px)" srcset="assets/row-data-mobile.svg?v=2026-W48">
+    <img src="assets/row-data.svg?v=2026-W48" alt="每周刷新的 GitHub 开源档案：星标、关注、仓库与过去十二个月贡献热力图。" width="880">
   </picture>
 </p>
 
